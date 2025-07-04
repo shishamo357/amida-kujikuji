@@ -28,3 +28,13 @@ def print_amida(board):
 if __name__ == "__main__":
     board = generate_amida(height=10, width=5)
     print_amida(board)
+
+    """
+# 使用例（テスト用）
+from amida_solver import follow_amida_path
+
+start = 2
+goal = follow_amida_path(grid, start)
+print(f"スタート位置 {start} → ゴール位置 {goal}")
+"""
+# ↑テスト用のあみだくじデータ　使うときはコメントアウト外して～
