@@ -1,7 +1,7 @@
 import random
 
 def generate_amida(height=10, width=5):
-    # 盤面を作る：Falseなら横線なし、Trueなら横線あり
+    # 盤面を作る  →Falseなら横線なし、Trueなら横線あり
     board = [[False for _ in range(width - 1)] for _ in range(height)]
 
     for y in range(height):
